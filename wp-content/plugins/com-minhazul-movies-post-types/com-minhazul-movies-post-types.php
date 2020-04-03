@@ -35,6 +35,8 @@ class MHK_Movies_Post_Type{
                 "slug" => "movies/",
             ),
             "public" => true,
+            // "menu_position" => 25,
+            "menu_icon" => admin_url() ."images/media-button-video.gif",
         );
         register_post_type(
             'mhk_movie',
